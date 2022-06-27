@@ -23,23 +23,6 @@
       "relation": "oneToMany",
       "target": "admin::user"
     },
-    "coverImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ]
-    },
-    "content": {
-      "type": "richtext",
-      "required": true
-    },
-    "postSeo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "seo.seo-information"
-    },
     "slug": {
       "type": "uid",
       "targetField": "title",
@@ -49,6 +32,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag"
+    },
+    "pageInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.page-info",
+      "required": true
     }
   }
 }
