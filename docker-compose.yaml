@@ -27,11 +27,11 @@ services:
     networks:
       - strapi
     depends_on:
-      - strapiDB
+      - strapidb
 
-  strapiDB:
+  strapidb:
     image: postgres:12.0-alpine
-    container_name: strapiDB
+    container_name: strapidb
     platform: linux/amd64
     restart: unless-stopped
     env_file: .env
