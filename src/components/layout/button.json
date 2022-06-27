@@ -1,8 +1,9 @@
 {
   "collectionName": "components_layout_buttons",
   "info": {
-    "displayName": "button",
-    "icon": "lightbulb"
+    "displayName": "link",
+    "icon": "lightbulb",
+    "description": ""
   },
   "options": {},
   "attributes": {

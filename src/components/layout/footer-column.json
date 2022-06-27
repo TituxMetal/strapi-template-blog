@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_footer_columns",
+  "info": {
+    "displayName": "FooterColumn",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "footerMenu": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::menu.menu"
+    }
+  }
+}
